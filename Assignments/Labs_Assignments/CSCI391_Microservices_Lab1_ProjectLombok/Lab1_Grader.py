@@ -12,7 +12,8 @@ def main(args):
                       "public void setPrice(",
                       "public String toString()",
                       "public boolean equals(",
-                      "public int hashCode() "]
+                      "public int hashCode()",
+                      "@Data"]
 
     total_points = 10
     result = subprocess.run(["type", "Book.java"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)

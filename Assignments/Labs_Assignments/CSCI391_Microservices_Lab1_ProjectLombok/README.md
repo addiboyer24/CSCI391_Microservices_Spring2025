@@ -1,0 +1,1 @@
+To grade place Book.java in this directory and run Lab1_Grader.py
